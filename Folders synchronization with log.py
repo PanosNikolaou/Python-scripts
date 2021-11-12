@@ -7,7 +7,7 @@ Description :
 @author: Panagiotis Nikolaou
 
 call example:
-    python Task2.py --sourceDir C:/Users/Panos/Desktop/original --destinationDir C:/Users/Panos/Desktop/temp --interval 10 --logDir C:/Users/Panos/Desktop/log.txt
+    python Folders synchronization with log.py --sourceDir C:/Users/Panos/Desktop/original --destinationDir C:/Users/Panos/Desktop/temp --interval 10 --logDir C:/Users/Panos/Desktop/log.txt
 
 """
 
