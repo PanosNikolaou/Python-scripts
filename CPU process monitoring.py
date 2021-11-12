@@ -8,7 +8,7 @@ Description :
 @author: Panagiotis Nikolaou
 
 call example:
-    python CPU process monitoring.py --launchProcess "C:\Program Files\7-Zip\7zFM.exe" --interval 15
+    python "CPU process monitoring.py" --launchProcess "C:\Program Files\7-Zip\7zFM.exe" --interval 15
 
 """
 
