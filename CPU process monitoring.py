@@ -74,8 +74,6 @@ def get_process_details(launch_process: str) -> dict:
                 'open_handles': process_open_handles
             })
 
-            os.kill(p.pid, signal.SIGTERM)
-
     # if it is Linux [cpu_usage,rss,vms,open_handles]
     if "Linux" in detected_os:
 
