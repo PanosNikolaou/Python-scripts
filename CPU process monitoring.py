@@ -39,7 +39,7 @@ def get_process_details(launch_process: str) -> dict:
     # launch the process
     p = psutil.Popen([launch_process])
     # create a dictionary for process details
-    process_details = {}
+    process_details = []
     # create process object from pid
     launched_process = psutil.Process(pid=p.pid)
 
